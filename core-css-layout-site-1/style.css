@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(64, 41, 64);
+  margin: 30px 20px;
+}
+header {
+  background-color: white;
+  border-radius: 20px;
+}
+
+h1 {
+  color: rgb(114, 109, 109);
+  padding: 0px 50px 0px 20px;
+}
+
+.head__div {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 4px rgba(45, 37, 37, 0.2);
+  border-radius: 20px;
+}
+
+.head__div a {
+  text-decoration: none;
+}
+
+.fead__link a {
+  color: rgb(114, 109, 109);
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.fead__link a:active {
+  color: rgb(41, 38, 38);
+}
+
+.my__foto {
+  display: flex;
+  overflow-x: auto;
+}
+
+.my__foto img {
+  scroll-snap-align: start;
+  width: 900px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.my {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 50px;
+  background-color: rgb(221, 216, 216);
+  color: rgb(61, 70, 73);
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.my img {
+  border-radius: 30px;
+  height: 500px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.story {
+  margin: 30px 20px;
+  text-align: start;
+}
+.story p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: white;
+  border-radius: 20px;
+}
+
+footer h3 {
+  color: rgb(114, 109, 109);
+  padding: 0px 50px 0px 20px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
